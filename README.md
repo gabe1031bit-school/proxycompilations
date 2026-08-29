@@ -6,6 +6,8 @@ This project compiles ALL of the popular unblocked games websites, and puts them
 
  btw all sources are from [ubghub](https://ubghub.org) or from others like GUST from Nautilus Labs, and Nautilus OS, also from them too.
 
+ and if ur coming from chrome://chrome-signin, here's [google](https://google.com), and [DuckDuckGo](https://duckduckgo.com).
+
  ## Tags and Their Meaning
 
  - Ready - This means that this proxy/UBG site has went through all the necessary tests and procedures that are tested on the **LAUSD** network. (Lightspeed, Network, etc)
