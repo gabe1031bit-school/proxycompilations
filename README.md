@@ -11,7 +11,7 @@ This project compiles ALL of the popular unblocked games websites, and puts them
  ## Tags and Their Meaning
 
  - Ready - This means that this proxy/UBG site has went through all the necessary tests and procedures that are tested on the **LAUSD** network. (Lightspeed, Network, etc)
- - TEST STAGE ONE COMPLETE or TEST STAGE ONE - This means that this proxy/UBG site was tested on Lightspeed, and other blocker extensions, and wasn't blocked, but still needs testing on the network, these are usually passed on the weekends.
+ - TEST STAGE ONE COMPLETE or TEST STAGE ONE - This means that this proxy/UBG site was tested on Lightspeed, and other blocker extensions, and wasn't blocked, but still needs testing on the network, if new sites are added on the weekends, then it would prob. be on this tag or below it until monday.
  - Untested - This means that the proxy/UBG site was added, but not tested with any method. Be warned, most of these sites added are blocked.
 
 
