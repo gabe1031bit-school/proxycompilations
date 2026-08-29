@@ -58,7 +58,6 @@
       margin-bottom: 1.5rem;
     }
 
-    /* Controls (Search + Category Filter Buttons) */
     .controls {
       display: flex;
       flex-direction: column;
@@ -229,7 +228,7 @@
       <div class="category-tabs">
         <button class="tab-btn active" onclick="filterCategory('all', this)">All</button>
         <button class="tab-btn" onclick="filterCategory('google-sites', this)">Google Sites</button>
-        <button class="tab-btn" onclick="filterCategory('vercel', this)">Vercel Hosts</button>
+        <button class="tab-btn" onclick="filterCategory('vercel', this)">Vercel & Cloud Hosts</button>
         <button class="tab-btn" onclick="filterCategory('apps', this)">Games & Utilities</button>
         <button class="tab-btn" onclick="filterCategory('untested', this)">Untested / External</button>
       </div>
@@ -240,7 +239,7 @@
 
     <!-- Category 1: Google Sites -->
     <section class="category-section" data-category="google-sites">
-      <h2 class="category-title">Google Sites Mirrors <span class="category-count">6</span></h2>
+      <h2 class="category-title">Google Sites Mirrors <span class="category-count">9</span></h2>
       <div class="grid">
         <a href="https://sites.google.com/view/dominumnetworkv2/dnv2" class="card">
           <div class="card-title"><span>Dominium Network</span><span class="badge verified">Ready</span></div>
@@ -266,13 +265,29 @@
           <div class="card-title"><span>CineHub</span><span class="badge verified">Ready</span></div>
           <div class="card-desc">Google Sites mirror</div>
         </a>
+        <a href="https://sites.google.com/view/interstellar-web/home" class="card">
+          <div class="card-title"><span>Interstellar</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Google Sites proxy mirror</div>
+        </a>
+        <a href="https://sites.google.com/view/selenite-cc/home" class="card">
+          <div class="card-title"><span>Selenite Network</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Google Sites static host</div>
+        </a>
+        <a href="https://sites.google.com/view/unblockedgames-77/home" class="card">
+          <div class="card-title"><span>UBG 77</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Google Sites game archive</div>
+        </a>
       </div>
     </section>
 
-    <!-- Category 2: Vercel Hosts -->
+    <!-- Category 2: Vercel & Cloud Hosts -->
     <section class="category-section" data-category="vercel">
-      <h2 class="category-title">Vercel Apps <span class="category-count">3</span></h2>
+      <h2 class="category-title">Vercel & Cloud Hosts <span class="category-count">7</span></h2>
       <div class="grid">
+        <a href="https://zinc-browser.vercel.app/?utm_source=ubghub.org&utm_medium=referral&utm_campaign=ubghub.org" class="card">
+          <div class="card-title"><span>Zinc Browser</span><span class="badge untested">Untested</span></div>
+          <div class="card-desc">Vercel hosted web browser</div>
+        </a>
         <a href="https://thibestunblocked.vercel.app/?utm_source=ubghub.org" class="card">
           <div class="card-title"><span>Thibestunblocked</span><span class="badge untested">Untested</span></div>
           <div class="card-desc">Vercel hosted app</div>
@@ -285,12 +300,24 @@
           <div class="card-title"><span>sienna.</span><span class="badge untested">Untested</span></div>
           <div class="card-desc">Vercel hosted app</div>
         </a>
+        <a href="https://spaceglare.vercel.app/" class="card">
+          <div class="card-title"><span>SpaceGlare</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Vercel web proxy host</div>
+        </a>
+        <a href="https://radon-network.vercel.app/" class="card">
+          <div class="card-title"><span>Radon Games</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Vercel frontend mirror</div>
+        </a>
+        <a href="https://artclass.site/" class="card">
+          <div class="card-title"><span>ArtClass</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Cloudflare hosted proxy</div>
+        </a>
       </div>
     </section>
 
-    <!-- Category 3: Games & Apps -->
+    <!-- Category 3: Games & Tools -->
     <section class="category-section" data-category="apps">
-      <h2 class="category-title">Games & Tools <span class="category-count">4</span></h2>
+      <h2 class="category-title">Games & Tools <span class="category-count">7</span></h2>
       <div class="grid">
         <a href="/offline/algebraofficialfile.html" class="card">
           <div class="card-title"><span>Algebra Practice</span><span class="badge verified">Working</span></div>
@@ -308,12 +335,24 @@
           <div class="card-title"><span>UNBLOCKEDZONE</span><span class="badge verified">Ready</span></div>
           <div class="card-desc">CDN hosted script</div>
         </a>
+        <a href="https://slope-game.github.io/" class="card">
+          <div class="card-title"><span>Slope Game</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">GitHub Pages standalone web build</div>
+        </a>
+        <a href="https://1v1lol.github.io/" class="card">
+          <div class="card-title"><span>1v1.LOL</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">GitHub Pages standalone client</div>
+        </a>
+        <a href="https://mathstudy.org/" class="card">
+          <div class="card-title"><span>Math Study Hub</span><span class="badge verified">Ready</span></div>
+          <div class="card-desc">Educational arcade utility</div>
+        </a>
       </div>
     </section>
 
     <!-- Category 4: Untested & External -->
     <section class="category-section" data-category="untested">
-      <h2 class="category-title">Untested & External Domains <span class="category-count">5</span></h2>
+      <h2 class="category-title">Untested & External Domains <span class="category-count">8</span></h2>
       <div class="grid">
         <a href="https://nexus-unblocked.lol/?utm_source=ubghub.org" class="card">
           <div class="card-title"><span>Nexus Unblocked</span><span class="badge untested">Untested</span></div>
@@ -335,6 +374,18 @@
           <div class="card-title"><span>zeroOS</span><span class="badge blocked">High Risk</span></div>
           <div class="card-desc">Likely blocked on managed networks</div>
         </a>
+        <a href="https://incognito.dev/" class="card">
+          <div class="card-title"><span>Incognito Network</span><span class="badge untested">Untested</span></div>
+          <div class="card-desc">External domain</div>
+        </a>
+        <a href="https://nebula.works/" class="card">
+          <div class="card-title"><span>Nebula Services</span><span class="badge untested">Untested</span></div>
+          <div class="card-desc">External cloud service</div>
+        </a>
+        <a href="https://ultraviolet.network/" class="card">
+          <div class="card-title"><span>Ultraviolet Node</span><span class="badge untested">Untested</span></div>
+          <div class="card-desc">External proxy node</div>
+        </a>
       </div>
     </section>
 
@@ -346,19 +397,15 @@
 
   <script>
     function filterCategory(category, element) {
-      // Update active tab button state
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
       element.classList.add('active');
 
-      // Clear search box when switching tabs
       document.getElementById('search').value = '';
 
-      // Show/Hide sections based on category
       const sections = document.querySelectorAll('.category-section');
       sections.forEach(section => {
         if (category === 'all' || section.dataset.category === category) {
           section.style.display = 'flex';
-          // Ensure all cards inside section are visible
           section.querySelectorAll('.card').forEach(card => card.style.display = 'flex');
         } else {
           section.style.display = 'none';
@@ -384,7 +431,6 @@
           }
         });
 
-        // Hide section entirely if no cards inside match search term
         section.style.display = visibleCards > 0 ? 'flex' : 'none';
       });
     }
