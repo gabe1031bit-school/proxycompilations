@@ -8,6 +8,9 @@ This project compiles ALL of the popular unblocked games websites, and puts them
 
  and if ur coming from chrome://chrome-signin, here's [google](https://google.com), and [DuckDuckGo](https://duckduckgo.com).
 
+ here's some more good links too [Kahoot hacks](https://kahootx-client.x-network.lol), [Prodigy hacks (not functional rn)](https://rune.x-network.lol), [blooket cheats](https://x-client.x-network.lol), [blooket botter](https://xbot.x-network.lol)
+
+
  ## Tags and Their Meaning
 
  - Ready - This means that this proxy/UBG site has went through all the necessary tests and procedures that are tested on the **LAUSD** network. (Lightspeed, Network, etc)
