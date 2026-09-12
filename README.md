@@ -2,7 +2,7 @@
 
 This project compiles ALL of the popular unblocked games websites, and puts them in an easy to use area, especially made for the chrome://chrome-signin exploit. If a site is put on here, it gets rigorously tested to make sure all functions work on blocked networks or blocker extensions. 
 
-[click here for github.io link](https://gabe1031bit-school.github.io/proxycompilations/) [google sites link (this wont work on any local html files)](https://sites.google.com/view/algebraonepractice)
+[click here for github.io link](https://gabe1031bit-school.github.io/proxycompilations/) [firebase link (no games will work)](https://pr0xy-compilations.web.app) [just games link](https://gabe1031bit-school.github.io/proxycompilations/wsgmes)
 
  btw all sources are from [ubghub](https://ubghub.org) or from others like GUST from Nautilus Labs, and Nautilus OS, also from them too.
 
@@ -26,6 +26,8 @@ M, W, THU, F - [10:20 AM - 10:35 AM] && [12:30 PM - 1:10 PM]
 TUE - [10:00 AM - 10:15 AM] && 	[12:00 AM - 12:30 PM]
 
 SAT && SUN - [7:00 PM - 8:00 PM]
+
+[test](https://script.google.com/macros/u/1/s/AKfycbw1_599DguoyYJgrcE_VORK7ABKK4NVPQ5tGWsW0F0UGYqVFE8t45iRW5t6HAAelTPGOQ/exec)
 
 These times are in Pacific Standard Times (PST).
 
