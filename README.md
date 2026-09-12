@@ -2,7 +2,7 @@
 
 This project compiles ALL of the popular unblocked games websites, and puts them in an easy to use area, especially made for the chrome://chrome-signin exploit. If a site is put on here, it gets rigorously tested to make sure all functions work on blocked networks or blocker extensions. 
 
-[click here for github.io link](https://gabe1031bit-school.github.io/proxycompilations/) [firebase link (no games will work)](https://pr0xy-compilations.web.app) [just games link](https://gabe1031bit-school.github.io/proxycompilations/wsgmes)
+[click here for github.io link](https://gabe1031bit-school.github.io/proxycompilations/) [firebase link](https://pr0xy-compilations.web.app) [just games link](https://gabe1031bit-school.github.io/proxycompilations/wsgmes)
 
  btw all sources are from [ubghub](https://ubghub.org) or from others like GUST from Nautilus Labs, and Nautilus OS, also from them too.
 
