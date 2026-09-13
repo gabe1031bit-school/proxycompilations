@@ -31,7 +31,9 @@ SAT && SUN - [7:00 PM - 8:00 PM]
 
 These times are in Pacific Standard Times (PST).
 
-#
+# AI CHATBOT
+
+[AI CHATBOT](https://mathandschoolisfun.web.app)
 
 
 
