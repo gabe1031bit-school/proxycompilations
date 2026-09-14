@@ -35,5 +35,8 @@ These times are in Pacific Standard Times (PST).
 
 [AI CHATBOT](https://mathandschoolisfun.web.app)
 
+- Works with Groq and Gemini API keys!
+- A separate extension is available for NVIDIA NIM, but has a preset API key, that you could hopefully change with a bit of coding knowledge.
+- Groq is NOT available for school computers. 
 
 
