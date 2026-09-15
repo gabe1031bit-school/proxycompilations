@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      background-color: #0b0f19;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.15) 0px, transparent 50%);
+      color: #f3f4f6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .login-card {
+      background: rgba(17, 24, 39, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 440px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card-header {
+      padding: 28px 24px 16px 24px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .card-header h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .card-header p {
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 380px;
+      border: none;
+      background: transparent;
+    }
+
+    .auth-iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .card-footer {
+      width: 100%;
+      padding: 16px 24px;
+      background: rgba(15, 23, 42, 0.5);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      text-align: center;
+    }
+
+    .btn-direct {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 16px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    }
+
+    .btn-direct:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4);
+    }
+
+    .footer-subtext {
+      margin-top: 12px;
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-card">
+    <div class="card-header">
+      <h1>Member Login</h1>
+      <p>Sign in to access protected content and games</p>
+    </div>
+
+    <!-- Embedded AuthPro Form -->
+    <div class="iframe-container">
+      <iframe 
+        class="auth-iframe" 
+        src="https://www.authpro.com/auth/mrgabethegabe/" 
+        title="AuthPro Login">
+      </iframe>
+    </div>
+
+    <div class="card-footer">
+      <a href="https://www.authpro.com/auth/mrgabethegabe/" target="_blank" class="btn-direct">
+        Open Login in New Tab
+      </a>
+      <p class="footer-subtext">Having trouble loading the frame? Click above.</p>
+    </div>
+  </div>
+
+</body>
+</html>
