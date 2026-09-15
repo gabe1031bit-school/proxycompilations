@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proxy & UB Hub</title>
   
-  <script type="text/javascript" src="https://www.authpro.com/auth/mrgabethegabe/?action=pp">
-</script>
+<script> // Only kick the user if AuthPro explicitly returns 'no' 
+if (typeof auth_res !== 'undefined' && auth_res === 'no') { window.location.replace("https://pr0xy-compilations.web.app/login.html"); } </script>
   
   <style>
     :root {
