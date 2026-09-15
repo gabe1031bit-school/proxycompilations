@@ -2,6 +2,8 @@
 
 # Your access to the website has changed dramatically. We have implemented a PASSWORD system to the website. We are sorry about the inconvinence, but this service has been spread at an ALARMING rate, that quality control could not be established. I am SO SORRY! - MGV
 
+## Want access? Go here: [https://form.typeform.com/to/by4b9tA8](https://form.typeform.com/to/by4b9tA8)
+
 This project compiles ALL of the popular unblocked games websites, and puts them in an easy to use area, especially made for the chrome://chrome-signin exploit. If a site is put on here, it gets rigorously tested to make sure all functions work on blocked networks or blocker extensions. 
 
 [click here for github.io link](https://gabe1031bit-school.github.io/proxycompilations/) [firebase link](https://pr0xy-compilations.web.app) [just games link](https://gabe1031bit-school.github.io/proxycompilations/wsgmes)
