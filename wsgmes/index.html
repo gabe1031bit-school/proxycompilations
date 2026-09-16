@@ -8,18 +8,15 @@
   <script type="text/javascript" src="https://www.authpro.com/auth/mrgabethegabe/?action=check"></script>
   
 <script>
-    // Redirect if:
-    // 1. auth_res is explicitly 'no'
-    // 2. auth_res is missing completely (undefined)
-    // 3. The login user variable is empty or undefined
-    if (
-      (typeof auth_res !== 'undefined' && auth_res === 'no') || 
-      typeof auth_res === 'undefined' || 
-      typeof login === 'undefined' || 
-      !login
-    ) {
-      window.location.replace("https://pr0xy-compilations.web.app/login");
-    }
+    (function() {
+      // Check if user has a valid local session token
+      var isAuthenticated = localStorage.getItem('authpro_logged_in');
+
+      // If not logged in, immediately redirect to login folder before page renders
+      if (isAuthenticated !== 'true') {
+        window.location.replace("https://pr0xy-compilations.web.app/login/");
+      }
+    })();
   </script>
   
   <style>
