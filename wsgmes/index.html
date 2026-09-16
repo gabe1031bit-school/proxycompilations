@@ -4,10 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Games - Proxy & UB Hub</title>
+
+  <script type="text/javascript" src="https://www.authpro.com/auth/mrgabethegabe/?action=check"></script>
   
-<script> // Only kick the user if AuthPro explicitly returns 'no' 
-if (typeof auth_res !== 'undefined' && auth_res === 'no') { window.location.replace("https://pr0xy-compilations.web.app/login.html"); } </script>
-</script>
+<script>
+    // Redirect if:
+    // 1. auth_res is explicitly 'no'
+    // 2. auth_res is missing completely (undefined)
+    // 3. The login user variable is empty or undefined
+    if (
+      (typeof auth_res !== 'undefined' && auth_res === 'no') || 
+      typeof auth_res === 'undefined' || 
+      typeof login === 'undefined' || 
+      !login
+    ) {
+      window.location.replace("https://pr0xy-compilations.web.app/login.html");
+    }
+  </script>
   
   <style>
     :root {
